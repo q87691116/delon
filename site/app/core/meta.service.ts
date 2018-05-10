@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
 import { META as DocsMeta } from '../routes/gen/docs/meta';
 import { META as ComponentsMeta } from '../routes/gen/components/meta';
+import { META as AuthMeta } from '../routes/gen/auth/meta';
+import { META as ACLMeta } from '../routes/gen/acl/meta';
 import { META as UtilMeta } from '../routes/gen/util/meta';
 import { META as FormMeta } from '../routes/gen/form/meta';
 import { I18NService } from '../core/i18n/service';
 import { Meta, MetaList, MetaSearchGroup, MetaSearchGroupItem } from '../interfaces';
 
-const FULLMETAS: Meta[] = [DocsMeta, ComponentsMeta, UtilMeta, FormMeta];
+const FULLMETAS: Meta[] = [DocsMeta, ComponentsMeta, AuthMeta, ACLMeta, UtilMeta, FormMeta];
 
 @Injectable()
 export class MetaService {

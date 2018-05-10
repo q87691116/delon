@@ -7,6 +7,8 @@ export const ENUS = {
     'app.header.menu.docs': 'Docs',
     'app.header.menu.components': 'Components',
     'app.header.menu.delon': 'Delon Library',
+    'app.header.menu.auth': '@delon/auth-Authentication',
+    'app.header.menu.acl': '@delon/acl-Access Control List',
     'app.header.menu.util': '@delon/util-Utils',
     'app.header.menu.form': '@delon/form-Dynamic Form',
     'app.header.menu.form.validator': 'Online Validator',

@@ -22,6 +22,8 @@ const routes = [
             // region: region routers
             { path: 'docs', loadChildren: './gen/docs/docs.module#DocsModule' },
             { path: 'components', loadChildren: './gen/components/components.module#ComponentsModule' },
+            { path: 'auth', loadChildren: './gen/auth/auth.module#AuthModule' },
+            { path: 'acl', loadChildren: './gen/acl/acl.module#AclModule' },
             { path: 'util', loadChildren: './gen/util/util.module#UtilModule' },
             { path: 'form', loadChildren: './gen/form/form.module#FormModule' },
             { path: 'form-pages', loadChildren: './form-pages/form-pages.module#FormPagesModule' }
